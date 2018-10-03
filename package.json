@@ -1,0 +1,13 @@
+{
+  "name": "act_isda",
+  "version": "0.1.0",
+  "repo": "hcnn/act_isda",
+  "description": "Date difference in years according to the Actual/Actual ISDA daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "Actual/Actual ISDA", "Act/Act ISDA", "Actual/365 ISDA", "Act/365 ISDA"],
+  "license": "MIT",
+  "src": ["act_isda.c", "act_isda.h"],
+  "dependencies": {
+    "hcnn/isaleapyear": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
